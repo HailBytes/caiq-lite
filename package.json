@@ -1,7 +1,6 @@
 {
   "name": "@hailbytes/caiq-lite",
   "version": "0.0.1",
-  "private": true,
   "description": "Programmatic schema and validator for the CSA CAIQ-Lite vendor security questionnaire. Author, validate, and diff CAIQ responses as code.",
   "type": "module",
   "license": "MIT",
@@ -49,7 +48,8 @@
     "lint": "eslint src",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
@@ -63,5 +63,9 @@
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.3",
     "vitest": "^4.1.6"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
   }
 }

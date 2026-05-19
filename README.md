@@ -34,3 +34,6 @@ const md = await exportTo(caiq, { format: 'markdown' });
 
 - [`@hailbytes/sbom-diff`](https://github.com/HailBytes/sbom-diff) — Diff CycloneDX/SPDX SBOMs
 - [HailBytes](https://hailbytes.com)
+---
+
+*Part of the [HailBytes](https://hailbytes.com) open-source security toolkit.*

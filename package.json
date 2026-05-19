@@ -1,6 +1,6 @@
 {
   "name": "@hailbytes/caiq-lite",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Programmatic schema and validator for the CSA CAIQ-Lite vendor security questionnaire. Author, validate, and diff CAIQ responses as code.",
   "type": "module",
   "license": "MIT",

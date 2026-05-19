@@ -2,15 +2,14 @@
 
 > Programmatic schema and validator for the CSA CAIQ-Lite vendor security questionnaire. Author, validate, and diff CAIQ responses as code.
 
-![Status: Incubation — not yet published to npm](https://img.shields.io/badge/status-incubation-orange)
+[![npm version](https://img.shields.io/npm/v/%40hailbytes%2Fcaiq-lite.svg)](https://www.npmjs.com/package/%40hailbytes%2Fcaiq-lite)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**Planned npm package:** `@hailbytes/caiq-lite`
-
-## Planned Audience
+## Who Is This For
 
 Security engineers, compliance teams, and trust-center operators who need to automate the authoring, validation, and delivery of CSA CAIQ-Lite vendor security questionnaires.
 
-## Planned API
+## API
 
 ```ts
 import { loadCAIQ, validate, diff, exportTo } from '@hailbytes/caiq-lite';

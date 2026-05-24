@@ -1,4 +1,6 @@
 # @hailbytes/caiq-lite
+![npm](https://img.shields.io/npm/dt/@hailbytes/caiq-lite)
+
 
 > Programmatic schema and validator for the CSA CAIQ-Lite vendor security questionnaire. Author, validate, and diff CAIQ responses as code.
 

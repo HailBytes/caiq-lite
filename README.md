@@ -13,7 +13,7 @@
 
 ## What it does
 
-Treat your CSA CAIQ-Lite vendor security questionnaire as code. Load responses from YAML, validate them against the official schema, diff versions over time, and export to PDF, XLSX, JSON, or Markdown — all programmatically.
+Treat your CSA CAIQ-Lite vendor security questionnaire as code. Load responses from YAML, validate them against the official schema, diff versions over time, and export to JSON, CSV, or Markdown — all programmatically.
 
 ---
 
@@ -44,9 +44,8 @@ const changes = diff(previousCAIQ, currentCAIQ);
 console.log(changes.added, changes.removed, changes.modified);
 
 // 4. Export to multiple formats
-const pdf = await exportTo(caiq, { format: 'pdf' });
-const xlsx = await exportTo(caiq, { format: 'xlsx' });
 const json = await exportTo(caiq, { format: 'json' });
+const csv = await exportTo(caiq, { format: 'csv' });
 const md = await exportTo(caiq, { format: 'markdown' });
 ```
 
